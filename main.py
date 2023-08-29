@@ -4,7 +4,7 @@ from os import getenv
 
 from pandora_cloud.server import ChatBot
 
-_port = 443
+_port = 80
 _proxy = getenv('PANDORA_PROXY')
 _debug = getenv('PANDORA_DEBUG', 'false').lower() == 'true'
 _sentry = getenv('PANDORA_SENTRY', 'false').lower() == 'true'
